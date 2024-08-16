@@ -129,6 +129,34 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-none" id="myEx">
+                    <div class="myEx">
+                        <h2>
+                            نمونه کار <span class="blue">من</span>
+                        </h2>
+                        <div class="row">
+                            <div class="col-4">
+                                <img src="assets/baghes.png" alt="baghes">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/ratewatch.png" alt="baghes">
+
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/funanec.png" alt="baghes">
+                            </div>
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-4">
+                                <img src="assets/آموزش-رایگان-spring-boot-min.png" alt="baghes">
+                            </div>
+                            <div class="col-4">
+                                <img src="assets/Spring-Security-2-min.png" alt="baghes">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="col-1">
@@ -146,7 +174,7 @@
                     <li>
                         <img src="assets/settings-100x100.png" alt="home">
                     </li>
-                    <li>
+                    <li onclick="showOtherPage('myEx')">
                         <img src="assets/portfolio-100x100.png" alt="home">
                     </li>
                     <li>
@@ -171,6 +199,7 @@
         document.getElementById("home").classList.add("d-none");
         document.getElementById("profile").classList.add("d-none");
         document.getElementById("myService").classList.add("d-none");
+        document.getElementById("myEx").classList.add("d-none");
 
     }
 </script>
