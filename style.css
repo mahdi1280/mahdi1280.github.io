@@ -140,3 +140,7 @@ body{
 .myService h3{
     font-size: 14px;
 }
+.myService img{
+    width: 40px;
+    height:  40px;
+}
