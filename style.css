@@ -131,3 +131,12 @@ body{
     font-size: 30px;
     color: #BBBBBB;
 }
+.myService{
+    padding: 12px;
+}
+.myService p{
+    font-size: 10px;
+}
+.myService h3{
+    font-size: 14px;
+}
