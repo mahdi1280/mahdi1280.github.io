@@ -128,8 +128,9 @@ body {
 }
 
 #profile {
-    font-size: 12px;
+    font-size: 14px;
     padding: 18px;
+    line-height: 26px;
 }
 
 .gray-text {
@@ -137,11 +138,12 @@ body {
 }
 
 .reCommentSection {
-    padding: 6px;
+    padding: 12px;
     border-radius: 12px;
     border: 2px solid #444444 !important;
     text-align: center;
     background-color: #333333 !important;
+    margin-top: 4px;
 }
 
 .reCommentSection img {
@@ -150,11 +152,12 @@ body {
 }
 
 .reCommentSection p {
-    margin-bottom: 0;
+    margin: 4px;
+    font-size: 18px;
 }
 
 .bold {
-    font-size: 36px;
+    font-size: 30px !important;
     color: #BBBBBB;
 }
 
