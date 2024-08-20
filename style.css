@@ -1,7 +1,8 @@
-*{
+* {
     direction: rtl;
 }
-body{
+
+body {
     direction: rtl;
     background-image: url("./assets/main_bg.png");
     background-size: cover;
@@ -10,30 +11,35 @@ body{
     background-color: #03B2DE !important;
     font-size: 24px !important;
 }
-.centerDiv{
+
+.centerDiv {
     display: flex;
     align-items: center;
     justify-content: center;
     height: 450px;
 }
-.justify-content-center{
+
+.justify-content-center {
     align-items: center;
     justify-content: center;
     height: 90vh;
 
 }
-.bg-ground{
+
+.bg-ground {
     background-color: #444444 !important;
     border-radius: 22px;
     color: white;
     padding: 0 !important;
 }
-.bg-ground1{
-    background-color: #222222!important;
+
+.bg-ground1 {
+    background-color: #222222 !important;
     border-radius: 22px;
     height: 100%;
 }
-.centerDiv1{
+
+.centerDiv1 {
     align-items: center;
     height: 400px;
     display: flex;
@@ -41,25 +47,31 @@ body{
     text-align: center;
     padding: 16px;
 }
-.my-photo{
+
+.my-photo {
     border-radius: 50%;
-    width: 80px;
+    width: 120px;
+    margin: 8px;
 }
-.btn-download{
+
+.btn-download {
     border-radius: 16px;
     border: 2px solid white;
     background-color: transparent;
     color: white;
-    padding: 4px 12px;
+    padding: 8px 16px;
     transition: 0.3s;
-    font-size: 12px;
+    font-size: 16px;
+    font-weight: bolder;
 }
-.btn-download:hover{
+
+.btn-download:hover {
     background-color: white;
     color: #03B2DE !important;
     transition: 0.3s;
 }
-.justify-content-center1{
+
+.justify-content-center1 {
     justify-content: center;
     display: flex;
     align-items: center;
@@ -67,7 +79,8 @@ body{
     flex-wrap: nowrap;
     flex-direction: column;
 }
-.bg-ground-menu{
+
+.bg-ground-menu {
     background-color: #444444 !important;;
     border-radius: 20px;
     height: 450px;
@@ -76,85 +89,106 @@ body{
     justify-content: center;
     display: flex;
 }
-.bg-ground-menu ul li{
+
+.bg-ground-menu ul li {
     list-style: none;
 }
-.bg-ground-menu ul{
+
+.bg-ground-menu ul {
     padding: 0;
 }
+
 .bg-ground-menu ul li img {
     width: 38px;
     height: 38px;
     margin: 10px;
     transition: 0.2s;
 }
-.bg-ground-menu ul li img:hover{
+
+.bg-ground-menu ul li img:hover {
     cursor: pointer;
     opacity: 0.8;
     transition: 0.2s;
 }
 
-.home-anim{
+.home-anim {
     transform: scale(0.2);
     animation: grow 1s ease forwards;
 
 }
+
 @keyframes grow {
     to {
         transform: scale(1);
     }
 }
-.blue{
+
+.blue {
     color: #04b4e0;
 }
-#profile{
+
+#profile {
     font-size: 12px;
     padding: 18px;
 }
-.gray-text{
-    color :#BBBBBB!important;
+
+.gray-text {
+    color: #BBBBBB !important;
 }
-.reCommentSection{
+
+.reCommentSection {
     padding: 6px;
     border-radius: 12px;
-    border: 2px solid #444444!important;
+    border: 2px solid #444444 !important;
     text-align: center;
-    background-color: #333333!important;
+    background-color: #333333 !important;
 }
-.reCommentSection img{
+
+.reCommentSection img {
     width: 40px;
     height: 40px;
 }
-.reCommentSection p{
+
+.reCommentSection p {
     margin-bottom: 0;
 }
-.bold{
+
+.bold {
     font-size: 36px;
     color: #BBBBBB;
 }
-.myService{
+
+.myService {
     padding: 12px;
 }
-.myService p{
+
+.myService p {
     font-size: 12px;
 }
-.myService h3{
+
+.myService h3 {
     font-size: 16px;
 }
-.myService img{
+
+.myService img {
     width: 40px;
-    height:  40px;
+    height: 40px;
 }
-.myEx img{
+
+.myEx img {
     width: 100%;
-    height: 100px;
+    height: 150px;
+    margin: 8px;
 }
-.myEx{
-    padding: 12px;
+
+.myEx {
+    padding: 16px;
 }
-h1{
+
+h1 {
     font-size: 60px !important;
 }
-h2{
+
+h2 {
     font-size: 40px !important;
 }
