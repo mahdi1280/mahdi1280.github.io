@@ -1,7 +1,39 @@
 * {
     direction: rtl;
+    font-family: yBakh;
+}
+@font-face {
+    font-family: yBakh;
+    font-weight: 700;
+    src: url('./Ybakh/700/yekan bakh en 06 bold.eot'),
+    url('./Ybakh/700/yekan bakh en 06 bold.ttf'),
+    url('./Ybakh/700/yekan bakh en 06 bold.woff');
+
 }
 
+@font-face {
+    font-family: yBakh;
+    font-weight: 400;
+    src: url('./Ybakh/400/yekan bakh en 04 regular.eot'),
+    url('./Ybakh/400/yekan bakh en 04 regular.ttf'),
+    url('./Ybakh/400/yekan bakh en 04 regular.woff');
+}
+
+@font-face {
+    font-family: yBakh;
+    font-weight: 500;
+    src: url('./Ybakh/500/yekan bakh en 05 medium.eot'),
+    url('./Ybakh/500/yekan bakh en 05 medium.ttf'),
+    url('./Ybakh/500/yekan bakh en 05 medium.woff');
+}
+
+@font-face {
+    font-family: yBakh;
+    font-weight: 900;
+    src: url('./Ybakh/900/yekan bakh en 07 heavy.eot'),
+    url('./Ybakh/900/yekan bakh en 07 heavy.ttf'),
+    url('./Ybakh/900/yekan bakh en 07 heavy.woff');
+}
 body {
     direction: rtl;
     background-image: url("./assets/main_bg.png");
@@ -10,6 +42,7 @@ body {
     background-repeat: no-repeat;
     background-color: #03B2DE !important;
     font-size: 24px !important;
+    font-family: yBakh;
 }
 
 .centerDiv {
@@ -166,7 +199,8 @@ body {
 }
 
 .myService p {
-    font-size: 12px;
+    font-size: 14px;
+    line-height: 31px;
 }
 
 .myService h3 {
