@@ -155,6 +155,15 @@
                         </div>
                     </div>
                 </div>
+                <div class="d-none home-anim p-4" id="setting">
+                    <div>
+                        <h2>
+                              مهارت های  <span class="blue">من</span>
+                        </h2>
+                         <h2 > فعلا مهارتی ندارم</h2>
+                    </div>
+
+                </div>
             </div>
         </div>
         <div class="col-1">
@@ -169,7 +178,7 @@
                     <li onclick="showOtherPage('myService')">
                         <img src="assets/desktop-100x100%20(1).png" alt="home">
                     </li>
-                    <li>
+                    <li onclick="showOtherPage('setting')">
                         <img src="assets/settings-100x100.png" alt="home">
                     </li>
                     <li onclick="showOtherPage('myEx')">
@@ -198,6 +207,7 @@
         document.getElementById("profile").classList.add("d-none");
         document.getElementById("myService").classList.add("d-none");
         document.getElementById("myEx").classList.add("d-none");
+        document.getElementById("setting").classList.add("d-none");
 
     }
 </script>

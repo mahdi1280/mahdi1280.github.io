@@ -49,7 +49,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 450px;
+    height: 500px;
 }
 
 .justify-content-center {
@@ -61,14 +61,14 @@ body {
 
 .bg-ground {
     background-color: #444444 !important;
-    border-radius: 22px;
+    border-radius: 42px;
     color: white;
     padding: 0 !important;
 }
 
 .bg-ground1 {
     background-color: #222222 !important;
-    border-radius: 22px;
+    border-radius: 42px;
     height: 100%;
 }
 
@@ -115,12 +115,12 @@ body {
 
 .bg-ground-menu {
     background-color: #444444 !important;;
-    border-radius: 20px;
-    height: 450px;
+    border-radius: 34px;
+    height: 500px;
     color: white;
-    padding: 2px;
     justify-content: center;
     display: flex;
+    padding: 12px;
 }
 
 .bg-ground-menu ul li {
@@ -161,8 +161,8 @@ body {
 }
 
 #profile {
-    font-size: 14px;
-    padding: 18px;
+    font-size: 16px;
+    padding: 20px;
     line-height: 26px;
 }
 
@@ -171,8 +171,8 @@ body {
 }
 
 .reCommentSection {
-    padding: 12px;
-    border-radius: 12px;
+    padding: 18px;
+    border-radius: 16px;
     border: 2px solid #444444 !important;
     text-align: center;
     background-color: #333333 !important;
@@ -180,22 +180,25 @@ body {
 }
 
 .reCommentSection img {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
 }
 
 .reCommentSection p {
-    margin: 4px;
-    font-size: 18px;
+    margin: 8px ;
+    font-size: 20px;
 }
 
 .bold {
-    font-size: 30px !important;
+    font-size: 35px !important;
     color: #BBBBBB;
+    font-weight: bolder;
+    font-family: yBakh;
+    margin-top: 18px !important;
 }
 
 .myService {
-    padding: 12px;
+    padding: 20px;
 }
 
 .myService p {
