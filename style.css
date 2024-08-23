@@ -254,3 +254,6 @@ h2 {
     transition: 0.2s;
     cursor: pointer;
 }
+.justify-text{
+    text-align: justify;
+}
