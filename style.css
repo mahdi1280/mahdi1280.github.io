@@ -232,3 +232,25 @@ h1 {
 h2 {
     font-size: 40px !important;
 }
+.sotial-icon{
+    padding: 2px;
+}
+.bi-instagram,.bi-telegram ,.bi-linkedin{
+    margin: 4px;
+
+}
+.bi-instagram:hover{
+    fill: red;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.bi-telegram:hover{
+    fill: #0092e4;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.bi-linkedin:hover{
+    fill: #0092e4;
+    transition: 0.2s;
+    cursor: pointer;
+}
